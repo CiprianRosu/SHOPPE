@@ -1,15 +1,15 @@
 import React from 'react'
 import {Routes , Route, Navigate} from 'react-router-dom'
 
-import Home from '../pages/Home'
-import Page404 from '../pages/Page404'
-import Shop from '../pages/Shop'
-import Checkout from '../pages/Checkout'
-import Login from '../pages/Login'
-import Contact from '../pages/Contact'
-import PlaceOrder from '../pages/PlaceOrder'
-import PrivateTerms from '../pages/PrivateTerms'
-import ProductDetails from '../pages/ProductDetails'
+import Home from '../pages/Home/Home'
+import Page404 from '../pages/Page404/Page404'
+import Shop from '../pages/Shop/Shop'
+import Checkout from '../pages/Checkout/Checkout'
+import Login from '../pages/Login/Login'
+import Contact from '../pages/Contact/Contact'
+import PlaceOrder from '../pages/PlaceOrder/PlaceOrder'
+import PrivateTerms from '../pages/PrivateTerms/PrivateTerms'
+import ProductDetailsPage from '../pages/ProductDetailsPage/ProductDetailsPage'
 
 
 const Routers = () => {
@@ -17,7 +17,7 @@ const Routers = () => {
     <Route path="/" element={<Navigate to = "home"/>}/>
         <Route path='home' element={<Home/>}/>
         <Route path='shop' element={<Shop/>}/>
-        <Route path='shop/:id' element={<ProductDetails/>}/>
+        <Route path='shop/:id' element={<ProductDetailsPage/>}/>
         <Route path='checkout' element={<Checkout/>}/>
         <Route path='login' element={<Login/>}/>
         <Route path='contact' element={<Contact/>}/>
