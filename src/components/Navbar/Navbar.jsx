@@ -15,23 +15,25 @@ const Navbar = () => {
           <NavLink to='home'><img src={logo} alt=""/></NavLink>
         </div>
       <div className='navigation'>
-        <ul className='menu'> 
+        <ul className='menu'>
+
           <li className='nav_item'>
-            <NavLink to='shop'>Shop</NavLink>
+          <NavLink to='shop' style={{ textDecoration: 'none' }}>Shop</NavLink>
           </li>
 
           <li className='nav_item'>
-            <NavLink to='blog'>Blog</NavLink>
+            Blog
           </li>
 
           <li className='nav_item'>
-            <NavLink to='story'>Our story</NavLink>
+            Our story
           </li>
 
         </ul>
         <ul className='icons'>
           <li className='nav_icon'>
             <BiSearch/>
+            <input type="text" placeholder="Search product..." className='input' />
           </li>
           <li className='nav_icon sm'>
             <FiShoppingCart/>

@@ -14,7 +14,9 @@ import ProductDetailsPage from '../pages/ProductDetailsPage/ProductDetailsPage'
 
 const Routers = () => {
   return <Routes>
-    <Route path="/" element={<Navigate to = "home"/>}/>
+    <Route 
+    // path="/" element={<Navigate to = "home"/>}
+    />
         <Route path='home' element={<Home/>}/>
         <Route path='shop' element={<Shop/>}/>
         <Route path='shop/:id' element={<ProductDetailsPage/>}/>
@@ -23,7 +25,7 @@ const Routers = () => {
         <Route path='contact' element={<Contact/>}/>
         <Route path='placeorder' element={<PlaceOrder/>}/>
         <Route path='privateterms' element={<PrivateTerms/>}/>
-        <Route path='page404' element={<Page404/>}/>
+        <Route path='*' element={<Page404/>}/>
         </Routes>
 }
 

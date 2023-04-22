@@ -1,9 +1,14 @@
 import React from 'react'
 import './ProductsDetails.css'
 
-const ProductsDetails = () => {
+
+const ProductsDetails = ({name , price}) => {
   return (
-    <div>ProductsDetails</div>
+    <div className='details'>
+      
+      <p>{name}</p>
+      <p>{price}</p>
+    </div>
   )
 }
 

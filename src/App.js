@@ -4,7 +4,8 @@ import Routers from './routers/Routers';
 import Footer from './components/Footer/Footer';
 
 const App =() => (
-  <div>
+  <div className='container'>
+
   <Navbar/>
   <Routers/>
   <Footer/>

@@ -1,0 +1,44 @@
+.nav_wraper{
+    /* position: relative; */
+    width: 1248px;
+    display: flex;
+    justify-content: space-between;
+    margin:0 auto;
+    padding-top:3rem;
+    /* padding: 3rem 4rem; */
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.menu{
+    display: flex;
+    padding-right: 2rem;
+}
+.nav_item{
+    padding-right:3rem ;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 27px;
+    color:var(--color-black);
+}
+
+.icons{
+    display: flex;
+    color:var(--color-black);
+}
+.nav_icon{
+    padding-left:2rem;
+}
+
+.navigation ul li{
+   
+    list-style-type: none;
+}
+.bg{
+    display: none;
+}
+.input{
+    display: none;
+}
