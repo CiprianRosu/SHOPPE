@@ -5,6 +5,10 @@
     justify-content: space-between;
     padding-bottom: 5rem;
     
+    bottom: 0; 
+     width: 100%;
+     
+    
 }
 
 .left{
@@ -25,13 +29,13 @@
 .left p{
     padding-top: 2rem;
     font-family: 'DM Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 27px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
 }
 .right{
-    padding-top: 2rem;
+    padding-top: 0.8rem;
 }
 .up_right{
     display: flex;
@@ -42,6 +46,11 @@ line-height: 27px;
 .up_right p{
     padding-bottom: 1rem;
     padding-right:5rem;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
 }
 .up_right a{
     padding-bottom: 0.5rem;

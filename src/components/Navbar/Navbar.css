@@ -6,10 +6,12 @@
     margin:0 auto;
     padding-top:3rem;
     /* padding: 3rem 4rem; */
+    border-bottom: 1px solid rgb(126, 123, 123);
 }
 .navigation{
     display: flex;
     justify-content: space-between;
+    padding-right: 42px;
     
 }
 .menu{
@@ -42,3 +44,4 @@
 .input{
     display: none;
 }
+

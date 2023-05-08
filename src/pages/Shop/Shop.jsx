@@ -1,14 +1,61 @@
 import React from 'react'
+import { images } from '../../constants'
+import ProductsDetails from '../../components/ProductsDetails/ProductsDetails'
 
 
 const Shop = () => {
   return (
-    <div>
-      
+<div className='shop'>
+      <div className='filter'>
+        <input/>
+        <select>
 
-<h1>Shop</h1>
+        </select>
 
-    </div>
+        <select>
+          
+        </select>
+      </div>
+
+      <div className='products'>
+
+        <div className='first_line'>
+          <div className='shop_details'>
+            <img src={images.img1} alt=""/>
+            <ProductsDetails name= "Lira Earrings" price="$20,00"/>
+          </div>
+
+          <div className='shop_details'>
+            <img src={images.img1} alt=""/>
+            <ProductsDetails name= "Lira Earrings" price="$20,00"/>
+          </div>
+
+          <div className='shop_details'>
+            <img src={images.img1} alt=""/>
+            <ProductsDetails name= "Lira Earrings" price="$20,00"/>
+          </div>
+        </div>
+
+        <div className='second_line'>
+        <div className='shop_details'>
+            <img src={images.img1} alt=""/>
+            <ProductsDetails name= "Lira Earrings" price="$20,00"/>
+          </div>
+
+          <div className='shop_details'>
+            <img src={images.img1} alt=""/>
+            <ProductsDetails name= "Lira Earrings" price="$20,00"/>
+          </div>
+
+          <div className='shop_details'>
+            <img src={images.img1} alt=""/>
+            <ProductsDetails name= "Lira Earrings" price="$20,00"/>
+          </div>
+        </div>
+
+      </div>
+
+</div>
   )
 }
 

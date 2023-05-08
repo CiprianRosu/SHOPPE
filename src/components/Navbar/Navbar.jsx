@@ -18,7 +18,7 @@ const Navbar = () => {
         <ul className='menu'>
 
           <li className='nav_item'>
-          <NavLink to='shop' style={{ textDecoration: 'none' }}>Shop</NavLink>
+          <NavLink to='shop' style={{ textDecoration: 'none'}}>Shop</NavLink>
           </li>
 
           <li className='nav_item'>

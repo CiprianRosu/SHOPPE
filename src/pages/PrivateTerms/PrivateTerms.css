@@ -1,0 +1,52 @@
+.layout{
+   
+    width: 670px;
+    height: 111px;
+    left: 381px;
+    top: 301px;
+    display: block;
+    margin: 100px auto;
+    padding-bottom: 450px;
+    
+}
+
+ .layout h1{
+    text-align: center;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 43px;
+    padding-bottom: 50px;
+} 
+ 
+.layout p{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+}
+.layout ul li{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    margin-left: 15px;
+    
+}
+
+.layout h2{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 25px;
+/* identical to box height, or 96% */
+
+text-transform: capitalize;
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+}

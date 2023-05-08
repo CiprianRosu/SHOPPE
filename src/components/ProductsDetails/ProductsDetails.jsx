@@ -6,8 +6,8 @@ const ProductsDetails = ({name , price}) => {
   return (
     <div className='details'>
       
-      <p>{name}</p>
-      <p>{price}</p>
+      <p className='name'>{name}</p>
+      <p className='color'>{price}</p>
     </div>
   )
 }

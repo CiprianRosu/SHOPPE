@@ -37,19 +37,16 @@ const Home = () =>
         <div className='details'>
         <img src={images.img1} alt=""/>
         <ProductsDetails name= "Lira Earrings" price="$20,00"/>
-        
         </div>
 
         <div className='details'>
         <img src={images.img2} alt=""/>
         <ProductsDetails name="Hal Earrings" price="$25,00" />
-        
         </div>
 
         <div className='details'>
         <img src={images.img3} alt=""/>
         <ProductsDetails name="Kaede Hair Pin Set Of 3 " price="$30,00"/>
-        
         </div>
       </div>
 

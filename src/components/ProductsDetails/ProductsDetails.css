@@ -3,5 +3,24 @@
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 26px;
+    
+   
+}
+.name{
+    margin-bottom: 30px;
+    font-size: 26px;
+}
+
+.color{
+    color: var(--color-accent);
+    font-size: 20px;
+}
+.quantity button{
+    color: black;
+    
+    padding: 1rem;
+}
+.btns{
+    display: flex;
+    gap:25px;
 }
